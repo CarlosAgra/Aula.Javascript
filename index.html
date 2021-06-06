@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aprendendo Javascript</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <h1> Aprendendo Javascript</h1>
+        <button type="button" onclick="clicou()" >Clique aqui</button>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> 
+        <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <select onchange="funcaochange(this)">
+            <option value="1">Viver</option>
+            <option value="2">Matar</option>
+            <option value="3">Morrer</option>
+        </select>
+    </body>
+</html> 
